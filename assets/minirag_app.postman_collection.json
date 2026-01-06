@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "4cb6a0d5-de71-468b-aa98-7e9758f74891",
+		"name": "minirag_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50204508",
+		"_collection_link": "https://rabujabal4-4178178.postman.co/workspace/Raneem-Abujabal's-Workspace~5e85bebb-c799-4da0-8b54-18130b4e6bad/collection/50204508-4cb6a0d5-de71-468b-aa98-7e9758f74891?action=share&source=collection_link&creator=50204508"
+	},
+	"item": [
+		{
+			"name": "welcome-request",
+			"protocolProfileBehavior": {
+				"strictSSL": true,
+				"followOriginalHttpMethod": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/welcome-request",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"welcome-request"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": ""
+		},
+		{
+			"value": ""
+		}
+	]
+}
